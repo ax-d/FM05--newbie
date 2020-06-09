@@ -49,6 +49,11 @@ img {
   font-weight: 300;
   font-size: 1.375rem;
   margin: 0 0 .818em 0;
+  color: hsl(0, 0%, 59%);
+}
+
+.content__title b {
+  color: rgb(0,0,0);
 }
 
 .content__title b {
@@ -209,7 +214,8 @@ img {
 
   .content-form__button {
     margin: 0 0 0 17px;
-    padding: 19px 74px
+    padding: 17px 62px;
+    font-size: 1.125rem;
   }
 
   .content__img {

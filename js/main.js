@@ -2,7 +2,7 @@ const form = document.querySelector('.content__form');
 const formItem = document.querySelector('.content-form__input');
 const formError = document.querySelector('.form-error');
 
-form.setAttribute('novalidate', true);
+form.setAttribute('novalidate', "");
 
 formItem.addEventListener('blur', function (event) {
     if (formItem.validity.valid)
