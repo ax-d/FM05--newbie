@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link rel="stylesheet" href="/css/style.css">
@@ -11,22 +13,53 @@
 
 
 </head>
-<body>
 
-  We are launching soon!
+<body class="page">
+  <header class="page__header">
+    <div class="container">
+      <a href="#" class="link"><img src="/img/logo.svg" alt="Ping logo" class="img__logo"></a>
+    </div>
+  </header>
+  <main class="page__content">
+    <div class="page__container container">
+      <h1 class="content__title">
+        We are launching <b>soon!</b>
+      </h1>
 
-  Subscribe and get notified
+      <p class="content__copy">
+        Subscribe and get notified
+      </p>
 
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">AX-d</a>.
-    </p>
+      <form action="" class="content__form">
+        <input type="email" placeholder="Your email address.." aria-label="email address" class="content-form__input"
+          required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+        <span class="form-error"></span>
+        <button class="content-form__button" aria-label="submit">Notify Me</button>
+      </form>
+      <img src="/img/illustration-dashboard.png" alt="illustration of the dashboard" class="content__img">
+    </div>
+  </main>
+  <footer class="page__footer">
+    <div class="container">
+      <ul class="list">
+        <li class="list__item"><a href="#" class="list__link"><img src="/img/facebook.svg" alt="facebook logo"
+              class="social__img"></a></li>
+        <li class="list__item"><a href="#" class="list__link"><img src="/img/twitter.svg" alt="twitter logo"
+              class="social__img"></a></li>
+        <li class="list__item"><a href="#" class="list__link"><img src="/img/instagram.svg" alt="instagram logo"
+              class="social__img"></a></li>
+      </ul>
+      <p class="footer__copy">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="link">Frontend
+          Mentor</a>.
+        Coded by <a href="#" class="link">AX-d</a>.
+      </p>
+    </div>
   </footer>
   <script src="/js/main.js"></script>
 </body>
+
 </html>
